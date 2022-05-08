@@ -12,7 +12,7 @@
 <body>
     <a id="button"></a>
 <script src="https://cdn.rawgit.com/davidshimjs/qrcodejs/gh-pages/qrcode.min.js"></script>
-    <header class="header "> 
+    <header data-aos="fade-up" class="header "> 
         <div class="wrapper">
              <div class="header__wrapper">
                 <div class="header__logo">
@@ -52,7 +52,7 @@
     </header>
     <main>
         <section class="intro">
-            <div class="wrapper">
+            <div data-aos="zoom-in-up" class="wrapper">
                 <h1 class="intro__title">Матеріальна допомога</h1>
                 <p class="intro__subtitle_inf">
                     Для тих хто зовсім не має вільного часу, але має бажання допомогти.
@@ -123,5 +123,9 @@
     <script src="js/but.js"></script> 
     <script src="js/main.js"></script>
     <script src="js/dop.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+      </script>
 </body>
 </html>
